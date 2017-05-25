@@ -1,14 +1,14 @@
 function clear() {
-  document.getElementById("gen1").innerHTML = "";
-  document.getElementById("gen2").innerHTML = "";
-  document.getElementById("gen3").innerHTML = "";
-  document.getElementById("gen4").innerHTML = "";
-  document.getElementById("gen5").innerHTML = "";
-  document.getElementById("gen6").innerHTML = "";
-  document.getElementById("gen7").innerHTML = "";
-  document.getElementById("gen8").innerHTML = "";
-  document.getElementById("gen9").innerHTML = "";
-  document.getElementById("gen10").innerHTML = "";
+  document.getElementById("gen1").innerHTML = " ";
+  document.getElementById("gen2").innerHTML = " ";
+  document.getElementById("gen3").innerHTML = " ";
+  document.getElementById("gen4").innerHTML = " ";
+  document.getElementById("gen5").innerHTML = " ";
+  document.getElementById("gen6").innerHTML = " ";
+  document.getElementById("gen7").innerHTML = " ";
+  document.getElementById("gen8").innerHTML = " ";
+  document.getElementById("gen9").innerHTML = " ";
+  document.getElementById("gen10").innerHTML = " ";
 }
 function generate1() {
   var gen = Math.floor(Math.random() * 10);
